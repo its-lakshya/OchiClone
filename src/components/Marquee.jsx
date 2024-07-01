@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const Marquee = () => {
   return (
-    <div className='w-full py-24 bg-[#004D43] rounded-tl-3xl rounded-tr-3xl text-white'>
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className='w-full py-24 bg-[#004D43] rounded-tl-3xl rounded-tr-3xl text-white'>
       <div className='text h-auto border-t-[1px] border-b-[1px] border-zinc-400 flex items-center whitespace-nowrap overflow-hidden'>
         <motion.h1
         initial={{x:"0"}} animate={{x:"-100%"}} transition={{repeat: Infinity, ease: "linear", duration: 5}}

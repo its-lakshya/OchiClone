@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const LandingPage = () => {
   return (
-    <div className="w-full h-screen pt-1 bg-[#F1F1F1]">
+    <div data-scroll data-scroll-section data-scroll-speed='-.5' className="w-full h-screen pt-1 bg-[#F1F1F1]">
       <div className='textstructure mt-40 px-12'>
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => (
         <div key={index} className='masker flex items-center gap-[1vw]'>
