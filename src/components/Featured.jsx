@@ -1,6 +1,6 @@
 const Featured = () => {
   return (
-    <div className='w-full py-24'>
+    <div className='w-full py-24 bg-zinc-100'>
       <div className='w-full px-12 border-b-[1px] border-zinc-400 pb-8'>
         <h1 className='text-[3.7vw] font-neue-montreal tracking-tight'>Featured projects</h1>
       </div>
